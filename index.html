@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subnet</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="JS/operaciones.js" ></script>
+    <script src="JS/llenartablas.js"></script>
+</head>
+
+<header>
+    <h1>Programa de Subneteo</h1>
+    <br>
+    <h2>Hernández Reyes Diego Alberto 5IV8</h2>
+</header>
+
+<body>
+    <div class="entradas">
+        
+        <label>INGRESE UNA IP</label>
+        <input type="input_text" class="entrada" id="ip">
+        <br>
+        <label>INGRESE EL NUMERO DE SUBREDES</label>
+        <input type="input_text" class="entrada" id="subred">
+        <br>
+        <input type="button" class="entrada" value="Calcular" onclick="Desarrollo()" >
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="salidas">
+       
+        <h3>A BINARIO</h3>      
+        <input type="text" class="salida" id="ipbin" readonly>
+        <br>
+        <h3>CLASE</h3> 
+        <input type="text" class="salida" id="tipo" readonly>
+        <br>        
+        <h3>MASCARA DE SUBRED</h3>   
+        <input type="text" class="salida" id="maskadap" readonly>
+        <br>      
+        <h3>MASCARA EN BINARIO</h3> 
+        <input type="text" class="salida" id="maskbin" readonly>      
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <table id="tabla1" class="table">           
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>Codigo robado nada maltratado</p>
+
+</body>
+
+    
+
+</html>

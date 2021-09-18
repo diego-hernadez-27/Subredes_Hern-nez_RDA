@@ -1,0 +1,48 @@
+*{
+    background-color: #7FFFD4;
+}
+
+header {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans";
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    color: 	#8A2BE2;
+}
+
+body{
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans";
+    width: 100%;
+    text-align: center;
+    color: 	#8A2BE2;
+}
+
+input{
+    border-radius: 12%;
+    color: 	#0000CD;
+    text-align: center;
+}
+
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 20px
+}
+
+thead{
+    background-color: 	#87CEFA;
+    border-bottom: solid 5px #7B68EE;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+
+
